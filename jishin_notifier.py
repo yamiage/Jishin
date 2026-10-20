@@ -1,7 +1,7 @@
 /**
  * 地震・津波・臨時情報 監視 → Gmail 通知システム (Googleアプリスクリプト版)
  *
- * 送信先: 201-25044@g.hiroshima-c.ed.jp
+ * 送信先: 201-25138@g.hiroshima-c.ed.jp
  * 送信元: このスクリプトを実行したGoogleアカウントのGmail(アプリパスワード不要)
  *
  * メール種別(それぞれ別メール)
@@ -15,7 +15,7 @@
  * 動作確認は test() を実行。
  */
  
-const TO_ADDR = '201-25044@g.hiroshima-c.ed.jp';
+const TO_ADDR = '201-25138@g.hiroshima-c.ed.jp';
  
 // 気象庁・防災科研の情報を配信している公開API
 const P2P_URL = 'https://api.p2pquake.net/v2/history?codes=551&codes=552&codes=556&limit=30';
